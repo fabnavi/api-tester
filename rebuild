@@ -1,0 +1,9 @@
+export npm_config_target=1.2.8
+export npm_config_arch=x64
+export npm_config_disturl=https://atom.io/download/atom-shell
+export npm_config_runtime=electron
+export npm_config_build_from_source=true
+export CSC_NAME="Kentaro Teramoto (3TF5EUAYLV)"
+HOME=~/.electron-gyp npm install
+HOME=~/.electron-gyp npm run build
+
